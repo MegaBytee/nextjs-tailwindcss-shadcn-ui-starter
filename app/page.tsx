@@ -1,3 +1,4 @@
+import DarkModeToggle from "@/components/common/DarkModeToggle";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -14,6 +15,7 @@ export default function Home() {
           priority
         />
         <Button>Click me</Button>
+        <DarkModeToggle />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
